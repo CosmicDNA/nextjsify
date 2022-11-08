@@ -1,0 +1,14 @@
+{
+  "name": "next-reaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hello": "./bin/index.mjs"
+  },
+  "author": "",
+  "license": "ISC"
+}
