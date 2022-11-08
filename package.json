@@ -1,5 +1,5 @@
 {
-  "name": "next-reaction",
+  "name": "nextjsify",
   "version": "1.0.0",
   "description": "",
   "main": "bin/index.mjs",
@@ -7,8 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "hello": "./bin/index.mjs"
+    "nextjsify": "./bin/index.mjs"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Daniel de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "13.2"
+  }
 }
