@@ -39,7 +39,9 @@ const getAllNonModuleCssFiles = async (excludePaths) => {
     return await getAllFiles('.', [".css"], { excludePaths: ['node_modules'].concat(excludePaths), excludeExtensions: [".module.css"] })
 }
 
-const run = (str, regex) => [...str.matchAll(regex)]
+const run = (str, regex) => {
+   return [...str.matchAll(regex)]
+}
 
 (async () => {
     // Get list of non module css files.
