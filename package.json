@@ -1,7 +1,7 @@
 {
   "name": "nextjsify",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Nextjsify assists in the conversion of a React app to NextJs following Vercel recommendations with a primary focus on classNames and css files.",
   "main": "bin/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
